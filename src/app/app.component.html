@@ -1,0 +1,16 @@
+<h2>Projeto CORS</h2>
+<label for="method-input">Método</label>
+<input type="text" id="method-input" placeholder="Insira o método">
+
+<label for="url-input">URL</label>
+<input type="text" id="url-input" placeholder="Insira a URL">
+
+<label for="headers-input">Headers</label>
+<textarea id="headers-input" placeholder="Insira os headers (JSON)"></textarea>
+
+<label for="body-input">Body</label>
+<textarea id="body-input" placeholder="Insira o body (JSON)"></textarea>
+<br><br>
+<button (click)="makeRequest()">Enviar Requisição</button>
+
+<div id="result"></div>
